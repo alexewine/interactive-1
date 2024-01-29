@@ -1,0 +1,10 @@
+words.txt
+santa cruz, boardwalk, Redwoods, <br>
+cats, creatures, jellyfish, nature, mushroom, skeletons, enviornment, bugs, Guinea Pig, ecosystem, pets, space, ocean <br> 
+care, safety, "Ableism is", Joy, community, friends, family, perspective, communication, connection, kindness, laughter, excitement, emotional, overwhelming, Queer,  <br>
+play, Video Game, Legend of Zelda, Subnautica Music, Electronic, psychedelic, dance, theatre, RPGs, fantasy, si-fi, <br>
+horror, cryptid, mythos, stories, Alternate universe, dystopian, History, Legend, world building, <br>
+food, sweets, coffee, baking,  <br>
+style, decoration, fashion, design, color, Jewlery, cleanliness, balence, technology, new, art, illustration, animation, pattern, symbols, texture, contast, juxtaposition, wood working  <br>
+
+</html> <a> <br> = line space &nbsp; = extra space, option-dRAG SELECTS MULTIPLE LINES, COMMAND ARROW GOES TO THE END OF EACH LINE, COMMAND T
