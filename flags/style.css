@@ -35,14 +35,26 @@ li {
 .colombia div.first{
 background-color:#FCD116;
 height: 50vh;
+left: 0px;
+top: 0px;
+position: fixed;
+z-index: 0;
 }
 .colombia div.second{
 background-color:#003893;
 height: 25vh;
+left: 0px;
+top: 300px;
+position: fixed;
+z-index: 1;
 }
 .colombia div.third{
 background-color:#CE1126;
 height: 25vh;
+left: 0px;
+top: 480px;
+position: fixed;
+z-index: 2;
 }
 
 /*palau.html styles*/
@@ -54,6 +66,10 @@ height: 25vh;
 .palau div.first{
       background-color: #0085CA;
       position: fixed;
+      left: 0px;
+      top: 0px;
+      position: fixed;
+      z-index: 0;
   }
 .palau div.second{
       height: 430px;
@@ -75,24 +91,27 @@ height: 25vh;
 .madagascar div.first{
 background-color:#FFFFFF;
 height: 100vh;
-width: 30vw;
+width: 400px;
 position: fixed;
 top: 0;
 left:0;
 }
 .madagascar div.second{
 background-color:#F9423A;
-height: 50vh;
-width: 70;
-top: 0;
-left:30;
+height: 400px;
+width: 70vw;
+top: 0px;
+left:400px;
+position: fixed;
 }
 .madagascar div.third{
 background-color:#00843D;
-height: 50vh;
-width: 70;
-top: 70;
-left:30;
+height: 400px;
+width: 70vw;
+top: ;
+top: 400px;
+left:400px;
+position: fixed;
 }
 
 /*belgium.html styles*/
@@ -146,7 +165,7 @@ position: fixed;
 .sweden div.second{
 background-color:#FECC02;
 height: 100vh;
-width: 10vw;
+width: 80px;
 left: 300px;
 top: 0;
 position: fixed;
@@ -154,7 +173,8 @@ z-index: 1;
 }
 .sweden div.third{
 background-color:#FECC02;
-height: 15vh;
+height: 80px;
+width: 100vw;
 z-index: 2;
 left: 0;
 top: 350px;
@@ -178,8 +198,8 @@ position: fixed;
 }
 .tonga div.second{
 background-color:#FFFFFF;
-height: 40vh;
-width: 40vw;
+height: 300px;
+width: 450px;
 left: 0;
 top: 0px;
 position: fixed;
@@ -187,17 +207,17 @@ z-index: 1;
 }
 .tonga div.third{
 background-color:#C10000;
-height: 7vh;
-width:15vw;
-left: 140px;
+height: 50px;
+width:150px;
+left: 150px;
 top: 120px;
 position: fixed;
 z-index: 2;
 }
 .tonga div.forth{
 background-color:#C10000;
-height: 20vh;
-width: 5vw;
+height: 150px;
+width: 50px;
 left: 200px;
 top: 70px;
 position: fixed;
