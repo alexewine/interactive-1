@@ -9,6 +9,7 @@ a {
 	font-size: 45px;
 	line-height: 3;
 	color:#03A696;
+      margin: 0;
 	transition: letter-spacing 0.2s;
 }
 a:hover {
@@ -22,13 +23,262 @@ li {
 	list-style: none;
 }
 
-/*mv11.html styles*/
-.musica1 div.first{
-      height: 100vh;
+.main div.bg{
+	  height: 100vh;
       width: 100vw;
-      background-color: greenyellow;
+      background-color: #012340;
       position: fixed;
       top: 0px;
       left: 0px;
+      margin: 0;
+      padding: 0;
       z-index: 0;
 }
+.main div.titles{
+	  height: 100vh;
+      width: 100vw;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      margin: 0;
+      padding: 0;
+      z-index: 1;
+}
+
+
+
+/*mv11.html styles*/
+.musica1 div.bg{
+      height: 668px;
+      width: 400px;
+      background-color: #5DA25F;
+      z-index: 0;
+}
+.musica1 div.topt{
+      font-family: sans-serif;
+      font-size: 45px;
+      height: 00vh;
+      width: 00vw;
+      color: #F2F1DF;
+      position: fixed;
+      top: 500px;
+      left: 0px;
+      z-index: 1;
+}
+.musica1 div.bott{
+      height: 00vh;
+      width: 00vw;
+      background-color: #F2F1DF;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+}
+.musica1 div.left{
+      height: 00vh;
+      width: 00vw;
+      background-color: #154020;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 2;
+}
+.musica1 div.right{
+      height: 00vh;
+      width: 00vw;
+      background-color: #154020;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 2;
+}
+
+
+
+/* styles for poster2 */
+.musica2 {
+      style= "margin: 0;"
+}
+.musica2 .col {
+  /* to make the col boxes go left to right */
+  float: left; 
+
+  /* width of the box is 100/6 */
+  width: 16.66vw; 
+  
+  /* giving it a specific height vw in order to keep the aspect ratio */
+  height: 25vw;
+  margin: 0 
+  /* text appearance */ 
+  text-align: center;
+  font-size: 18vw;
+  line-height: 25vw;
+
+  /* show border for testing purposes */
+  box-sizing: border-box;
+  background: #84163D;
+}
+
+.musica2 .row {
+  /* clear float:left every row */
+  clear: left;
+      margin: 0 
+}
+
+.musica2 p {
+  /* text appearance for paragraphs */ 
+  font-size: 18px;
+  line-height: 1;
+}
+
+.musica2 .para-left {
+  /* overlayed, but still aligns to the grid */ 
+  position: absolute;
+  left: 49.98vw; /* .col width * 3 */
+  top: 75vw;     /* .col height * 3 */
+}
+.musica2 .para-right {
+  /* overlayed, but still aligns to the grid */ 
+  position: absolute;
+  left: 66.64vw; /* .col width * 4 */
+  top: 75vw;    /* .col height * 3 */
+}
+
+
+
+/*mv19.html styles*/
+.musica3 div.bg{
+      height: 668px;
+      width: 400px;
+      background-color: #DADCD4;
+      margin: 0 auto;
+}
+.musica3 div.center{
+      height: 50px;
+      width: 50px;
+      background-color: #C9002F;
+      position: fixed;
+      top: px;
+      left: 0px;
+      z-index: 1;
+}
+.musica3 div.b1{
+      height: 00vh;
+      width: 00vw;
+      background-color: #111316;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+}
+.musica3 div.b2{
+      height: 00vh;
+      width: 00vw;
+      background-color: #111316;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 2;
+}
+.musica3 div.left{
+      height: 00vh;
+      width: 00vw;
+      background-color: #235B8C;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index:;
+  }
+  .musica3 div.right{
+      height: 00vh;
+      width: 00vw;
+      background-color: #D7B31E;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index:;
+  }
+.musica3 div.top{
+      height: 00vh;
+      width: 00vw;
+      background-color: #837F81;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index:;
+  }
+.musica3 div.bott{
+      height: 00vh;
+      width: 00vw;
+      background-color: #837F81;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index:;
+  }
+  .musica3 div.typetop{
+      height: 00vh;
+      width: 00vw;
+      background-color: #111316;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index:;
+  }
+  .musica3 div.typebott{
+      height: 00vh;
+      width: 00vw;
+      background-color: #111316;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index:;
+  }
+
+/*mv5.html styles*/
+.musica4 div.bg{
+      height: 668px;
+      width: 400px;
+      background-color: #ffffff;
+      border-color: #730237;
+      border-weight: 8px;
+      margin: 0 auto;
+      z-index: 0;
+}
+.musica4 div.topt{
+      height: 00vh;
+      width: 00vw;
+      background-color: #6792A1;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+}
+.musica4 div.bott{
+      height: 00vh;
+      width: 00vw;
+      background-color: #6792A1;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+}
+.musica4 div.left{
+      height: 00vh;
+      width: 00vw;
+      background-color: #154020;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 2;
+}
+.musica4 div.right{
+      height: 00vh;
+      width: 00vw;
+      background-color: #154020;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index:;
+  }
+
