@@ -49,27 +49,49 @@ li {
       z-index: 1;
 }
 
+
+
+
 /*musica1 styles*/
-.col{
+.musica1 .col{
+width:100vw;
+height:100vh;
+top: 0px;
+left: 0px;
+      color:#F2F1E4;
+      text-align: left;
+      background-color: #5DA35D;
+      position: absolute;
+      line-height: 16vh;
 }
-.middle{
-      width:40vh;
-      height:30vh;
-      color:;
+.musica1 .big{
       text-align: center;
+      font-size: 145px;
+}
+.musica1 .para-left {
+      margin-top: 75vh;
+      padding-left: 10vw;
+}
+.musica1 .para-right {
 
 }
-.p {
-      margin-top: ;
-      padding-left: ;
+.musica1 .line {
+  color:#F2F1E4;
+  top: 60vh;
+  width: 200px;
+  height: 10px;
 }
-
 
 
 
 
 
 /*musica2 styles*/
+.musica2{
+  background:  #84163D;
+  height: 100vh;
+  width: 100vw;
+}
 .musica2 .col {
   float: left; 
   width: 16.66vw; 
@@ -77,33 +99,52 @@ li {
   text-align: center;
   font-size: 18vw;
   line-height: 25vw;
-  background:  #84163D;
+  color:#6DA0A6;
 }
-
 .musica2 .row {
   /* clear float:left every row */
   clear: left;
 }
-
-.musica2 p {
-  /* text appearance for paragraphs */ 
-  font-size: 18px;
-  line-height: 1;
-  margin: 0;
-
-  /* show background for testing purposes */
-  background: yellow;
-}
-
 .musica2 .para-left {
   /* overlayed, but still aligns to the grid */ 
   position: absolute;
-  left: 49.98vw; /* .col width * 3 */
-  top: 75vw;     /* .col height * 3 */
+  left: 40vw; /* .col width * 3 */
+  top: 105vw;     /* .col height * 3 */
+  color:#FFFFFF;
+  font-size: 10px;
+  text-align: right;
 }
 .musica2 .para-right {
   /* overlayed, but still aligns to the grid */ 
   position: absolute;
-  left: 66.64vw; /* .col width * 4 */
-  top: 75vw;    /* .col height * 3 */
+  left: 60vw; /* .col width * 4 */
+  top: 105vw;    /* .col height * 3 */
+  color:#FFFFFF;
+  font-size: 10px;
 }
+
+
+
+
+/*musica3 styles*/
+.musica3{
+  background: #E8FFEF;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+/*musica4 styles*/
+.musica4 .cols1{
+
+}
+.musica4 .cols2{
+
+}
+.musica4 .cols3{
+
+}
+.musica4 .cols4{
+
+}
+
